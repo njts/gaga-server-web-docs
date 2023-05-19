@@ -1,38 +1,38 @@
-# Run GaGa On MacOS Desktop
+# GaGaNode MacOS Masaüstünde Nasıl Çalıştırılır?
 
->How to easily install a GaGaNode on MacOS Desktop
+>GaGaNode MacOS Masaüstüne nasıl kolayca kurulur.
 
 [[toc]]
 
-## 1.Download
+## 1.İndirmek
 
-You can obtain your token and installation package by clicking the "[Install & Run](https://dashboard.gaganode.com/install_run)" on this page.
+Bu sayfadaki "[Install & Run](https://dashboard.gaganode.com/install_run)" butonuna tıklayarak token ve kurulum paketinizi edinebilirsiniz.
 
 ![](./../images/running/install_run_3.png)
 
-## 2.Install 
+## 2.Kurmak
 
-The GaGaNode Desktop for macOS version can be easily installed by simply opening the `.dmg` installation package.
+GaGaNode Desktop'un macOS sürümü sadece `.dmg` kurulum paketi açılarak kolayca kurulabilir.
 
 ![](./../images/running/mac-desktop-01.png)
 
-Clicking on the GaGaNode Desktop icon will launch the application.
+GaGaNode Desktop simgesine tıklamak uygulamayı başlatacaktır.
 
 ![](./images/../../images/running/mac-desktop-02.png)
 
-## 3.Start Service
+## 3.Hizmeti Başlatın
 
-When you open GaGaNode Desktop, it will first initiate a download process for initialization, which may take anywhere between 1-3 minutes to complete.
+GaGaNode Desktop'u açtığınızda, ilk olarak bir indirme işlemi başlatacak ve bu işlemin tamamlanması 1-3 dakika arasında sürebilir.
 
 ![](./images/../../images/running/mac-desktop-03.png)
 
-Once the download is complete, enter your Gaganode token and click on the "Restart" to initiate the restart process.
+İndirme işlemi tamamlandığında, Gaganode token'inizi girin ve yeniden başlatma işlemini başlatmak için "Restart "a tıklayın.
 
 ![](./images/../../images/running/mac-desktop-06.png)
 
-After waiting for the restart process to complete, you will notice that Gaganode has been successfully launched.
+Yeniden başlatma işleminin tamamlanmasını bekledikten sonra, Gaganode'nin başarıyla başlatıldığını göreceksiniz.
 
 ![](./images/../../images/running/mac-desktop-07.png)
-After 1-3 minutes, you will have a new terminal record at terminals open in new node .
+1-3 dakika sonra, yeni node'da açılan terminallerde yeni bir terminal kaydınız olacaktır.
 
 ![](./images/../../images/running/mac-desktop-08.png)

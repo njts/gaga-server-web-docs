@@ -3,36 +3,37 @@ pageClass: home-page
 sidebarDepth: 1
 ---
 
-# Introduction
+# Tanıtım
 
 ![](./images/gaganode-center.jpeg)
 
-## What GaGanode Is
+## GaGanode Nedir?
 
-GaGaNode, the Next generation Decentralized Residential IP + Bandwidth marketplace, aims to alleviate the global shortage of IPv4 addresses with Web3.0 technology.
+Yeni nesil Merkeziyetsiz Konut IP + Bant Genişliği pazarı olan GaGaNode, Web3.0 teknolojisi ile IPv4 adreslerinin küresel sıkıntısını hafifletmeyi amaçlamaktadır.
 
-GaGaNode is developed for helping users to master idle home bandwidth resources independently. Users can participate in Web3 network through Idle Electronics at home without public network IP. GaGaNode encourages everyone to reduce investment in new mining equipment and install GaGaNode on any Idle Electronics such as Raspberry Pi, Android phone, Arm SBC, TV Box, Xbox, Playstation and other electronic devices through software porting as much as possible.
+GaGaNode, kullanıcıların evdeki boşta kalan bant genişliği kaynaklarına bağımsız olarak hakim olmalarına yardımcı olmak için geliştirilmiştir. Kullanıcılar, genel ağ  IP'si olmadan evdeki boşta kalan/kullanılmayan elektronik cihazlar aracılığıyla Web3 ağına katılabilirler. GaGaNode, herkesi yeni madencilik ekipmanlarına yatırımı azaltmaya ve GaGaNode'u Raspberry Pi, Android telefon, Arm SBC, TV Box, Xbox, Playstation ve diğer elektronik cihazlar gibi herhangi bir boş duran elektronik cihaz üzerine mümkün olduğunca yazılım uyarlama yoluyla kurmaya teşvik eder.
 
-At the moment when the global IPv4 address resources are in short supply, those Future technologies that need to rely on home bandwidth resources to develop can obtain real home bandwidth resources through GaGaNode, thus changing the status quo that home bandwidth resources need to be purchased from hacker channels, making related services more and more trendy. for compliance.
+Küresel IPv4 adres kaynaklarının yetersiz olduğu şu anda, gelişmek için evdeki bant genişliği kaynaklarına güvenmesi gereken geleceğin teknolojileri, GaGaNode aracılığıyla gerçek ev bant genişliği kaynaklarını elde edebilir, böylece ev bant genişliği kaynaklarının hacker kanallarından satın alınması gerektiği süregelen durumu değiştirerek ilgili hizmetleri gitgide daha moda hale getirebilir. Uyumluluk için.
 
-## What Meson Network Is
+## Meson Network Nedir?
 
-Meson Network is committed to creating an efficient bandwidth marketplace on Web3, using a blockchain protocol model to replace the traditional labor-based sales models, consolidating and monetizing idle bandwidth from long-tail users at a low cost. Meson Network is the foundation of data transmission for decentralized storage, computation, and the emerging Web3 Dapp ecosystem.
+Meson Network; geleneksel iş gücüne dayalı satış modellerinin yerine, bir blok zinciri protokol modeli kullanarak, uzun kuyruk ekonomisi* kullanıcılarından boşta kalan bant genişliğini düşük bir maliyetle birleştirerek ve bunlardan para kazanarak, Web3 üzerinde verimli bir bant genişliği pazarı yaratmaya kendini adamıştır. Meson Network, merkezi olmayan depolama, hesaplama ve ortaya çıkmakta olan Web3 Dapp ekosistemi için veri aktarımının temelidir. 
+*Talebi az olan çeşitli ürünlerin toplam satışının, çok satan bir ürünün satışından daha kârlı olması durumu.
 
-## How GaGaNode Works
+## GaGaNode Nasıl Çalışır?
 
 ![](./images/gaga-system.png)
 
-## Social Media
+## Sosyal Medya
 
-We have an active and growing community. All are welcome to be part of our community, help shape it, or simply observe.
+Aktif ve büyüyen bir topluluğumuz var. Herkesi topluluğumuzun bir parçası olmaya, onu şekillendirmeye yardımcı olmaya ya da sadece gözlemlemeye bekliyoruz.
 
-At any point, feel free to join our [Telegram group](https://t.me/mesonnetwork) and [Discord server](https://discord.gg/invite/z6YfSHDkmS). The #gaganode channel is most relevant GaGaNode.
+Herhangi bir noktada, [Telegram grubumuza](https://t.me/mesonnetwork) ve [Discord sunucumuza](https://discord.gg/invite/z6YfSHDkmS) katılmaktan çekinmeyin. GaGaNode ile en alakalı kanal #gaganode kanalıdır.
 
-Join in the [🦄 Meson BUILDer Program](https://forms.gle/xEavrpdo8j4Mwh2XA).
+[🦄 Meson BUILDer Programına](https://forms.gle/xEavrpdo8j4Mwh2XA) katılın.
 
-We also use [GitHub](https://github.com/daqnext) Issues and Discussions.
+Ayrıca [GitHub](https://github.com/daqnext) Sorunlar ve Tartışmalar (Issues and Discussions) kategorilerini de kullanıyoruz. 
 
-Or you can follow [Twitter](https://twitter.com/NetworkMeson) and [Medium](https://medium.com/meson-network) for updates.
+Ya da güncellemeler için [Twitter](https://twitter.com/NetworkMeson) ve [Medium](https://medium.com/meson-network)'u takip edebilirsiniz.
 
 [![GitHub Org's stars](https://img.shields.io/github/stars/daqnext?style=social)](https://github.com/daqnext) [![Discord](https://img.shields.io/discord/784251111678148608?label=Discord&logo=discord&style=social)](https://discord.gg/invite/z6YfSHDkmS) [![Twitter Follow](https://img.shields.io/twitter/follow/NetworkMeson?style=social)](https://twitter.com/NetworkMeson) [![Youtube Subscribers](https://img.shields.io/youtube/channel/subscribers/UCUhcyQzhZqIcrsoG1zy4tDQ?style=social)](https://www.youtube.com/c/MesonNetwork)

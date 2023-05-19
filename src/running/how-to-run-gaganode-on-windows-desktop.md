@@ -1,47 +1,47 @@
 # Run GaGa On Windows Desktop
 
->How to easily install a GaGaNode on Windows.
+>Windows'ta GaGaNode nasıl kolayca kurulur.
 
 [[toc]]
 
-## 1.Download
+## 1.İndirin
 
-You can obtain your token and installation package by clicking the "[Install & Run](https://dashboard.gaganode.com/install_run)" on this page.
+Bu sayfadaki "[Install & Run](https://dashboard.gaganode.com/install_run)" butonuna tıklayarak token ve kurulum paketinizi edinebilirsiniz.
 
 ![](./../images/running/install_run_3.png)
 
-You can obtain the installation package of Gaganode Pro by unzipping it.
+Gaganode Pro'nun kurulum paketini zipten çıkararak elde edebilirsiniz.
 
 ![](./../images/running/windows-desktop-01.png)
 
-## 2.Install 
+## 2.Kurulumu Yapın 
 
-To continue running Gaganode Desktop in "Windows Protected Your PC" dialog box, you need to click on "Run anyway".
+"Windows Bilgisayarınızı Korudu" sayfasında Gaganode Desktop'u çalıştırmaya devam etmek için "Yine de çalıştır "a tıklamanız gerekir.
 
 ![](./images/../../images/running/windows-desktop-02.png)
 
-To proceed with the installation, select "Anyone who uses this computer" and click on the "Next".
+Kuruluma devam etmek için "Anyone who uses this computer"(Bu bilgisayarı kullanan herkes) seçeneğini seçin ve "Next"(İleri) butonuna tıklayın.
 
 ![](./images/../../images/running/windows-desktop-03.png)
 
-Select the installation path for Gaganode Desktop and complete the installation process.
+Gaganode Desktop için kurulum yerini seçin ve kurulum işlemini tamamlayın.
 
 ![](./images/../../images/running/windows-desktop-04.png)
 
-## 3.Start Service
+## 3.Hizmeti Başlatın
 
-When you open GaGaNode Desktop, it will first initiate a download process for initialization, which may take anywhere between 1-3 minutes to complete.
+GaGaNode Desktop'u açtığınızda, ilk olarak bir indirme işlemi başlatacak ve bu işlemin tamamlanması 1-3 dakika arasında sürebilir.
 
 ![](./images/../../images/running/windows-desktop-07.png)
 
-Once the download is complete, enter your Gaganode token and click on the "Restart" to initiate the restart process.
+İndirme işlemi tamamlandığında, Gaganode token'inizi girin ve yeniden başlatma işlemini başlatmak için "Restart"a tıklayın.
 
 ![](./images/../../images/running/windows-desktop-08.png)
 
-After waiting for the restart process to complete, you will notice that Gaganode has been successfully launched.
+Yeniden başlatma işleminin tamamlanmasını bekledikten sonra, Gaganode'un başarıyla başlatıldığını göreceksiniz.
 
 ![](./images/../../images/running/windows-desktop-09.png)
 
-After 1-3 minutes, you will have a new terminal record at terminals open in new node .
+1-3 dakika sonra, yeni node'da açılan terminallerde yeni bir terminal kaydınız olacaktır.
 
 ![](./images/../../images/running/windows-desktop-10.png)

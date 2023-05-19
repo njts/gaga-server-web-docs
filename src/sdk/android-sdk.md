@@ -1,11 +1,11 @@
 # Android SDK 101
 
->GaGaNode Android SDK integration Tutorial
+>GaGaNode Android SDK Entegrasyon Kılavuzu
 
-- This document is a simple example of SDK integration.
-- For official stable running application reference please go to [GaGaNode Android](https://github.com/gaganode/gaga_android).
+- Bu belge SDK entegrasyonunun basit bir örneğidir.
+- Resmi stabil çalışan uygulama referansı için lütfen [GaGaNode Android](https://github.com/gaganode/gaga_android)'e bakın.
 
-## 1. Go to GitHub to download the latest version .jar SDK
+## 1. En son sürüm .jar SDK'yi indirmek için GitHub'a gidin
 
 `.jar` SDK: [gaga_android_sdk](https://github.com/gaganode/gaga_android_sdk)
 
@@ -13,18 +13,18 @@
 git clone https://github.com/gaganode/gaga_android_sdk.git
 ```
 
-## 2. Add the SDK.jar file to your libs folder and Add as library
+## 2. SDK.jar dosyasını libs klasörünüze ekleyin ve Add As Library(Kütüphane olarak ekle) butonuna basın.
 
 ![](./../images/sdk/android-sdk.jpeg)
 
-## 3. Add the SDK.jar file to your libs folder and Add as library
+## 3. SDK.jar dosyasını libs klasörünüze ekleyin ve Add As Library(Kütüphane olarak ekle) butonuna basın.
 
 ```java
 <uses-permission android:name="android.permission.INTERNET" >
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-## 4. In your Activity start the SDK
+## 4. Aktivitenizde SDK'yi başlatın
 
 ```java
 String token= "{your token}";

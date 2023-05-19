@@ -1,12 +1,12 @@
-# How To Run GaGa On Linux
+# GaGaNode Linux'ta Nasıl Çalıştırılır?
 
->How to easily install a GaGaNode on Linux.
+>Bir GaGaNode'u Linux'ta kolayca nasıl kurabilirim?
 
 [[toc]]
 
-## Install Dependencies Packages
+## Dependencies Paketlerini Yükleme
 
-If you get notifications like `-bash: curl: command not found` telling that you can't use this command, please install `curl`, `tar`, `ca-certificates` by using command first.
+Eğer `-bash: curl: command not found` gibi bu komutu kullanamayacağınızı söyleyen bildirimler alırsanız, lütfen önce `curl`, `tar`, `ca-certificates` komutlarını kullanarak yükleyin.
 
 **Ubuntu / Debian:** 
 
@@ -20,7 +20,16 @@ sudo apt-get update -y && sudo apt-get -y install curl tar ca-certificates
 sudo yum update -y && sudo yum install -y curl tar ca-certificates
 ```
 
-## 1.Download & Install
+## 1.İndirmek & Kurmak
+
+::: ipucu 🚧 İPUCU
+Gaganode'nin eski sürümü sistemde mevcutsa kapatmak için lütfen aşağıdaki komutu kullanın.
+<br>
+`
+sudo ./app service remove
+`
+:::
+
 
 <CodeGroup>
 
@@ -42,7 +51,7 @@ curl -o apphub-linux-386.tar.gz https://assets.coreservice.io/public/package/70/
 
 </CodeGroup>
 
-console output:
+konsol çıktısı:
 
 ```bash
 meson@meson-server:~$ curl -o apphub-linux-amd64.tar.gz https://assets.coreservice.io/public/package/60/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-amd64.tar.gz && rm -f apphub-linux-amd64.tar.gz && cd ./apphub-linux-amd64 && sudo ./apphub service install
@@ -55,22 +64,13 @@ Install app service:					[  OK  ]
 ```
 
 
-## 2.Start Service
-
-::: tip 🚧 TIP
-To shut down the old version of Gaganode if it exists in the system, please use the following command.
-<br>
-`
-sudo ./apphub service remove
-`
-:::
-
+## 2.Hizmeti Başlatın
 
 ```bash
 sudo ./apphub service start
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 meson@meson-server:~/app-linux-amd64$ sudo ./apphub service start
@@ -78,22 +78,22 @@ meson@meson-server:~/app-linux-amd64$ sudo ./apphub service start
 Starting app service:					[  OK  ]
 ```
 
-## 3.Check APP Status
+## 3.APP Durumunu Kontrol Edin
 
 ```bash
 ./apphub status
 ```
 
-check gaganode status is RUNNING
+gaganode'un durumunun ÇALIŞIYOR olup olmadığını kontrol edin 
 
-console output:
+konsol çıktısı:
 
 ```bash
 meson@meson-server:~/app-linux-amd64$ ./apphub status
 [gaganode]:		local version:[1.0.3] latest version:[1.0.3] status:[DOWNLOADED]
 ```
 
-Status List:
+Durum Listesi:
 
 ```bash
 TO_DOWNLOAD                     # app to download
@@ -102,13 +102,13 @@ INSTALLED                       # app installed
 RUNNING                         # app running
 ```
 
-## 4.Set Token
+## 4.Tokeni Ayarlayın
 
 ```bash
 sudo ./apps/gaganode/gaganode config set --token=`your token`
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 meson@meson-server:~/app-linux-amd64$ sudo ./apps/gaganode/gaganode config set --token=albrcgctlhzgdhramuywpwje
@@ -116,20 +116,20 @@ new config generated
 restart for the new configuration to take effect
 ```
 
-## 5.Restart APP
+## 5.APP'i Yeniden Başlatın
 
 ```bash
 ./apphub restart
 ```
 
-console output:
+konsol çıktısı: 
 
 ```bash
 meson@meson-server:~/app-linux-amd64$ ./apphub restart
 restart command send, system will reboot...
 ```
 
-## Commands Reference
+## Komutların Referansı
 
 ```bash
 sudo ./apphub service install                    # install node
@@ -143,6 +143,6 @@ sudo ./apphub service remove                     # remove node
 ./apphub -h                                      # check help
 ```
 
-## Terminal Rsecording
+## Terminal Kaydı
 
 <a href="https://asciinema.org/a/545183" target="_blank"><img src="https://asciinema.org/a/545183.svg" /></a>

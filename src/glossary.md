@@ -1,29 +1,27 @@
-# 🧱 Glossary
+# 🧱 Sözlük
 
-### IP Address
+### IP Adresleri
 
-Your IP address is a code that uniquely identifies a network device, like a computer or a smartphone. It’s often described by analogy like a physical street address, but there is an important distinction – because the code is logical (not arbitrary like a street address), it can change. Use WhatIsMyIPAddress to find what yours is right now.
+IP adresiniz, bilgisayar veya akıllı telefon gibi bir ağ cihazını benzersiz bir şekilde tanımlayan bir koddur. Genellikle fiziksel bir sokak adresi gibi benzetilerek tanımlanır, ancak önemli bir ayrım vardır - kod mantıksal olduğu için (sokak adresi gibi rastgele değil) değişebilir. Sizinkinin şu anda ne olduğunu bulmak için WhatIsMyIPAddress'i kullanın.
 
-Since your IP address is the principal identifier for your device on a network, your proxy’s main job is to mask that IP address and replace it with a diﬀerent one. There are many ways to do this, so there are many diﬀerent types of proxies.
+IP adresiniz bir ağdaki cihazınız için temel tanımlayıcı olduğundan, proxy'nizin ana görevi bu IP adresini maskelemek ve başka bir adresle değiştirmektir. Bunu yapmanın birçok yolu vardır, bu nedenle birçok farklı proxy türü vardır.
 
 ### Port
 
-If an IP address is like a residential mailing address, then a port is more like an individual mailbox – except every address has thousands of individual ones. Essentially, ports transmit specific types of information and are organized in such a way that data remains eﬃciently categorized no matter where you’re sending it.
+Örneğin, 25 numaralı port e-posta için varsayılan çıkış portudur. Bilgisayarınız ne tür veri gönderdiğini veya aldığını belirlemek için bu port sistemini kullanır (binlerce port vardır) - e-postaların örneğin bir HTTP web tarayıcısı (port80 kullanır) yerine gelen kutusuna düşmesinin nedeni budur.
 
-For instance, port 25 is the default outgoing port for email. Your computer uses this system of ports (there are thousands) to determine what kind of data it is sending or receiving – that’s how emails end up in inboxes instead of, for instance, on an HTTP web browser (which uses port80).
-
-- [14 common network ports you should know - Opensource.com](https://opensource.com/article/18/10/common-network-ports)
+- [Bilmeniz gereken 14 yaygın ağ portu - Opensource.com](https://opensource.com/article/18/10/common-network-ports)
 
 ### ASN
 
-Your autonomous system number (ASN) refers to particular digits that identify a group of IP addresses. You can think of autonomous systems as being one level up along the hierarchy of data identification on the Internet. Diﬀerent countries and ISPs have diﬀerent ASNs.
+Otonom sistem numaranız (ASN), bir grup IP adresini tanımlayan belirli rakamları ifade eder. Otonom sistemlerini, İnternet üzerindeki veri tanımlama hiyerarşisinin bir üst seviyesi olarak düşünebilirsiniz. Farklı ülkeler ve İSS'ler farklı ASN'lere sahiptir.
 
-### Subnet
+### Alt ağ
 
-A subnet is a smaller group of individual device identities located on a single unified network. For instance, in a corporate oﬃce building, multiple devices may share the same IP address and have diﬀerent subnets keeping them distinct and organized.
+Alt ağ, tek bir birleşik ağ üzerinde bulunan daha küçük bir bireysel cihaz kimliği grubudur. Örneğin, kurumsal bir ofis binasında, birden fazla cihaz aynı IP adresini paylaşabilir ve onları farklı ve düzenli tutan farklı alt ağlara sahip olabilir.
 
 ### VPS
 
-When an internet hosting service sells a virtual private server (VPS), it is allowing access to a specific component of an existing server according to its users’ needs. This may or may not correspond to a specific physical device – because the server is virtual, it doesn’t have to.
+Bir internet barındırma hizmeti sanal bir özel sunucu (VPS) sattığında, kullanıcılarının ihtiyaçlarına göre mevcut bir sunucunun belirli bir bileşenine erişime izin verir. Bu, belirli bir fiziksel cihaza karşılık gelebilir veya gelmeyebilir - sunucu sanal olduğu için buna gerek yoktur.
 
-This bridges the gap between selling dedicated server usage and shared server usage. Shared servers stuff multiple users into a single physical device, while dedicated servers are private, one-to-one devices. A VPS oﬀers privacy without forcing users to accommodate a specific physical device.
+Bu, tahsis edilmiş sunucu kullanımı ile paylaşımlı sunucu kullanımı arasındaki boşluğu doldurur. Paylaşımlı sunucular birden fazla kullanıcıyı tek bir fiziksel cihazda toplarken, tahsis edilmiş sunucular özel, bire bir cihazlardır. Bir VPS, kullanıcıları belirli bir fiziksel cihaza uyum sağlamaya zorlamadan gizlilik sunar.

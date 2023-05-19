@@ -1,10 +1,10 @@
 # PC SDK 101
 
->GaGaNode PC SDK integration Tutorial
+>GaGaNode PC SDK Entegrasyon Kılavuzu
 
-1. Download and unzip package.
-2. Edit config file `./root_conf/default.toml` and set your token.
-3. Run gaganode program and keep it running as long as possible which in return generate more reward.
+1. Paketi indirin ve ZİP'ten çıkartın.
+2. `./root_conf/default.toml` config dosyasını düzenleyin ve token'inizi ayarlayın.
+3. Gaganode programını çalıştırın ve mümkün olduğunca uzun süre çalışır durumda tutun, bu da karşılığında daha fazla ödül kazandırır.
 
 **Linux 32 bit**
 

@@ -1,28 +1,28 @@
-# How To Run GaGa On MacOS
+# GaGaNode MacOS'ta Nasıl Çalıştırılır?
 
->How to easily install a GaGaNode on MacOS.
+>MacOS'ta GaGaNode nasıl kolayca kurulur.
 
 [[toc]]
 
-## Register
+## Kaydolun
 
 [https://dashboard.gaganode.com/register](https://dashboard.gaganode.com/register)
 
 ![](./../images/running/register-v2.png)
 
-Click the button “[Install & Run](https://dashboard.gaganode.com/install_run)” and you can find out your token and installation tutorial in this page.
+“[Install & Run](https://dashboard.gaganode.com/install_run)” butonuna tıklayın, Bu sayfada tokeninizi ve kurulum eğitimini bulabilirsiniz.
 
 ![](./../images/running/install_run_3.png)
 
-## 1.Download & Install
+## 1.İndirin & Kurun
 
-In the Terminal app <img src="./images/../../images/running/terminal.png" height="20"/> on [your Mac](https://support.apple.com/guide/terminal/welcome/2.13/mac), do one of the following:
+[Mac'inizdeki](https://support.apple.com/guide/terminal/welcome/2.13/mac) terminal uygulamasında <img src="./images/../../images/running/terminal.png" height="20"/> aşağıdakilerden birini yapın:
 
 ```bash
 curl -o apphub-darwin-amd64.tar.gz https://assets.coreservice.io/public/package/58/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-darwin-amd64.tar.gz && rm -f apphub-darwin-amd64.tar.gz && cd ./apphub-darwin-amd64 && ./apphub service install
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 curl -o apphub-darwin-amd64.tar.gz https://assets.coreservice.io/public/package/58/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-darwin-amd64.tar.gz && rm -f apphub-darwin-amd64.tar.gz && cd ./apphub-darwin-amd64 && ./apphub service install
@@ -32,33 +32,33 @@ curl -o apphub-darwin-amd64.tar.gz https://assets.coreservice.io/public/package/
 Install app service:					[  OK  ]
 ```
 
-## 2.Start Service
+## 2.Hizmeti Başlatın
 
 ```bash
 ./apphub service start
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 ➜  apphub-darwin-amd64 ./apphub service start
 Starting app service:					[  OK  ]
 ```
 
-## 3.Check APP Status
+## 3.APP durumunu kontrol edin
 
 ```bash
 ./apphub status
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 ➜  apphub-darwin-amd64 ./app status
 [gaganode]:		local version:[1.0.3] latest version:[1.0.3] status:[TO_DOWNLOAD] 
 ```
 
-Status List:
+Durum Listesi:
 
 ```bash
 TO_DOWNLOAD                     # app to download
@@ -67,13 +67,13 @@ INSTALLED                       # app installed
 RUNNING                         # app running
 ```
 
-## 4.Set Token
+## 4.Tokeni Ayarlayın
 
 ```bash
 ./apps/gaganode/gaganode config set --token=`your token`
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 ➜  apphub-darwin-amd64 ./apps/gaganode/gaganode config set --token=`your token`
@@ -82,20 +82,20 @@ restart for the new configuration to take effect
 ```
 
 
-## 5.Restart APP
+## 5.APP'i Yeniden Başlatın
 
 ```bash
 ./apphub restart
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 ➜  apphub-darwin-amd64 ./apphub restart
 restart command send, system will reboot...
 ```
 
-## Commands Reference
+## Komutların Referansı
 
 ```bash
 ./apphub service install                         # install node
@@ -109,6 +109,6 @@ restart command send, system will reboot...
 ./apphub -h                                      # check help
 ```
 
-## Terminal Rsecording
+## Terminal Kaydı
 
 <a href="https://asciinema.org/a/545224" target="_blank"><img src="https://asciinema.org/a/545224.svg" /></a>

@@ -2,23 +2,23 @@
 
 [[toc]]
 
-## What is a Gaganode?
+## Gaganode Nedir?
 
-Gaga Node is a ip & residential bandwidth market place which makes data flow unstoppable and data assessment fair for everyone.
+Gaga Node, veri akışını durdurulamaz ve veri değerlendirmesini herkes için adil hale getiren bir IP & konut bant genişliği pazar yeridir.
 
-Gaga is based on Web3 technology which is built by people and dedicated to people.
+Gaga, insanlar tarafından inşa edilen ve insanlara adanmış Web3 teknolojisine dayanmaktadır.
 
-## What is Meson Network?
+## Meson Network nedir?
 
-It is a bandwidth trading platform built on blockchain. We gather the idle bandwidth (and space) from the distributed servers worldwide, offering the servers’ suppliers the tokens as rewards, and helping speed up the streaming media.
+Blok zinciri üzerine inşa edilmiş bir bant genişliği ticaret platformudur. Dünya çapındaki dağıtılmış sunuculardan boşta kalan bant genişliğini (ve alanı) topluyoruz, sunucuların tedarikçilerine ödül olarak tokenleri sunuyoruz ve veri akış ortamını hızlandırmaya yardımcı oluyoruz.
 
-## What is the maximum number of devices allowed by Gaganode?
+## Gaganode tarafından izin verilen maksimum cihaz sayısı nedir?
 
-**Users may connect 1 device per one IP/Network.**
+**Kullanıcılar bir IP/Ağ başına 1 cihaz bağlayabilir.**
 
-Additional devices added with a legitimate installation will show a "ip overlap" error until there is less than 1 device connected.
+Meşru bir şekilde eklenen ek cihazlar, bağlı 1'den az cihaz kalana kadar "ip overlap"(ip çakışması) hatası gösterecektir.
 
-## In which countries Gaganode works?
+## Gaganode hangi ülkelerde çalışıyor?
 
-The Gaganode doesn't have any borders! It works all around the world! 
+Gaganode'un herhangi bir sınırı yoktur! Dünyanın her yerinde çalışır!
 

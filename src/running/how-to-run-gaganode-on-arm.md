@@ -1,10 +1,10 @@
 # How To Run GaGa On ARM
 
->How to easily install a GaGaNode on ARM.
+>GaGaNode ARM'da nasıl kolayca kurulur.
 
 [[toc]]
 
-## Supported Unix/Linux operating systems
+## Desteklenen Unix/Linux işletim sistemleri
 
 |OS|Website|
 |:-:|:-:|
@@ -20,20 +20,20 @@
 |openSUSE|[https://get.opensuse.org](https://get.opensuse.org)|
 |Asahi Linux|[https://asahilinux.org](https://asahilinux.org)|
 
-## Register
+## Kaydolun
 
 [https://dashboard.gaganode.com/register](https://dashboard.gaganode.com/register)
 
 ![](./../images/running/register-v2.png)
 
-Click the button “[Install & Run](https://dashboard.gaganode.com/install_run)” and you can find out your token and installation tutorial in this page.
+“[Install & Run](https://dashboard.gaganode.com/install_run)” butonuna tıklayın. Bu sayfada tokeninizi ve kurulum eğitimini bulabilirsiniz.
 
 ![](./../images/running/install_run_3.png)
 
-## 1.Download & Install
+## 1.İndirin & Kurun
 
-::: tip 🚧 TIP
-To shut down the old version of Gaganode if it exists in the system, please use the following command.
+::: ipucu 🚧 İPUCU
+Gaganode'nin eski sürümü sistemde mevcutsa kapatmak için lütfen aşağıdaki komutu kullanın.
 <br>
 `
 sudo ./app service remove
@@ -60,9 +60,9 @@ curl -o apphub-linux-arm32.tar.gz https://assets.coreservice.io/public/package/7
 
 </CodeGroup>
 
-Check the output of `uname -m`. If the result is `aarch32` you are running the ARM Linux kernel in `32-bit` and if the result is `aarch64` or `arm64` you are running the kernel in `64-bit` mode. check out [List of ARM processors](https://en.wikipedia.org/wiki/List_of_ARM_processors).
+`uname -m` çıktısını kontrol edin. Eğer sonuç `aarch32` ise ARM Linux kaynak kodunu `32-bit` modunda çalıştırıyorsunuz demektir ve eğer sonuç `aarch64` veya `arm64` ise kaynak kodunu `64-bit` modunda çalıştırıyorsunuz demektir. [ARM işlemcileri listesi](https://en.wikipedia.org/wiki/List_of_ARM_processors)'ni kontrol edin.
 
-console output:
+konsol çıktısı:
 
 ```bash
 pi@raspberrypi:~ $ curl -o apphub-linux-arm32.tar.gz https://assets.coreservice.io/public/package/72/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-arm32.tar.gz && rm -f apphub-linux-arm32.tar.gz && cd ./apphub-linux-arm32 && sudo ./apphub service install                                                                           
@@ -73,21 +73,13 @@ pi@raspberrypi:~ $ curl -o apphub-linux-arm32.tar.gz https://assets.coreservice.
 Install app service:                                    [  OK  ]                
 ```
 
-## 2.Start Service
-
-::: tip 🚧 TIP
-To shut down the old version of Gaganode if it exists in the system, please use the following command.
-<br>
-`
-sudo ./apphub service remove
-`
-:::
+## 2.Hizmeti Başlatın
 
 ```bash
 sudo ./apphub service start
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 pi@raspberrypi:~/app-linux-arm64 $ sudo ./apphub service start      
@@ -95,26 +87,26 @@ pi@raspberrypi:~/app-linux-arm64 $ sudo ./apphub service start
 Starting app service:                                   [  OK  ]                
 ```
 
-## 3.Check APP Status
+## 3.APP Durumunu Kontrol Edin
 
 ```bash
 ./apphub status
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 pi@raspberrypi:~/app-linux-arm64 $ ./apphub status                               
 [gaganode]:             local version:[1.0.3] latest version:[1.0.3] status:[TO_DOWNLOAD]                                                                       
 ```
 
-## 4.Set Token
+## 4.Tokeni Ayarlayın
 
 ```bash
 sudo ./apps/gaganode/gaganode config set --token=`your token`
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 pi@raspberrypi:~/app-linux-arm64 $ sudo ./apps/gaganode/gaganode config set --to
@@ -123,20 +115,20 @@ new config generated
 restart for the new configuration to take effect                                    
 ```
 
-## 5.Restart APP
+## 5.APP'i Yeniden Başlatın
 
 ```bash
 ./apphub restart
 ```
 
-console output:
+konsol çıktısı:
 
 ```bash
 pi@raspberrypi:~/app-linux-arm64 $ ./apphub restart                            
 restart command send, system will reboot...  
 ```
 
-## Commands Reference
+## Komutların Referansı
 
 ```bash
 sudo ./apphub service install                    # install node
